@@ -1,0 +1,7 @@
+/Users/siyuliu/nology/post-course/microservices-new/product-service/src/main/java/com/siyu/productservice/service/ProductService.java
+/Users/siyuliu/nology/post-course/microservices-new/product-service/src/main/java/com/siyu/productservice/dto/ProductRequest.java
+/Users/siyuliu/nology/post-course/microservices-new/product-service/src/main/java/com/siyu/productservice/dto/ProductResponse.java
+/Users/siyuliu/nology/post-course/microservices-new/product-service/src/main/java/com/siyu/productservice/controller/ProductController.java
+/Users/siyuliu/nology/post-course/microservices-new/product-service/src/main/java/com/siyu/productservice/model/Product.java
+/Users/siyuliu/nology/post-course/microservices-new/product-service/src/main/java/com/siyu/productservice/repository/ProductRepository.java
+/Users/siyuliu/nology/post-course/microservices-new/product-service/src/main/java/com/siyu/productservice/ProductServiceApplication.java

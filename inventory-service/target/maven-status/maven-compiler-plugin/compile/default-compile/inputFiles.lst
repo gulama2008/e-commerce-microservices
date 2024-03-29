@@ -1,0 +1,6 @@
+/Users/siyuliu/nology/post-course/microservices-new/inventory-service/src/main/java/com/siyu/inventoryservice/service/InventoryService.java
+/Users/siyuliu/nology/post-course/microservices-new/inventory-service/src/main/java/com/siyu/inventoryservice/controller/InventoryController.java
+/Users/siyuliu/nology/post-course/microservices-new/inventory-service/src/main/java/com/siyu/inventoryservice/InventoryServiceApplication.java
+/Users/siyuliu/nology/post-course/microservices-new/inventory-service/src/main/java/com/siyu/inventoryservice/model/Inventory.java
+/Users/siyuliu/nology/post-course/microservices-new/inventory-service/src/main/java/com/siyu/inventoryservice/repository/InventoryRepository.java
+/Users/siyuliu/nology/post-course/microservices-new/inventory-service/src/main/java/com/siyu/inventoryservice/util/DataLoader.java

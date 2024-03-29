@@ -1,0 +1,10 @@
+com/siyu/productservice/repository/ProductRepository.class
+com/siyu/productservice/dto/ProductRequest$ProductRequestBuilder.class
+com/siyu/productservice/service/ProductService.class
+com/siyu/productservice/ProductServiceApplication.class
+com/siyu/productservice/dto/ProductRequest.class
+com/siyu/productservice/dto/ProductResponse$ProductResponseBuilder.class
+com/siyu/productservice/dto/ProductResponse.class
+com/siyu/productservice/model/Product$ProductBuilder.class
+com/siyu/productservice/model/Product.class
+com/siyu/productservice/controller/ProductController.class
