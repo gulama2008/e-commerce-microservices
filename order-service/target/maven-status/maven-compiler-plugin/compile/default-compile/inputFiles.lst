@@ -1,3 +1,4 @@
+/Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/config/WebClientConfig.java
 /Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/controller/OrderController.java
 /Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/model/Order.java
 /Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/dto/OrderRequest.java
@@ -6,3 +7,5 @@
 /Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/repository/OrderRepository.java
 /Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/OrderServiceApplication.java
 /Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/service/OrderService.java
+/Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/event/OrderPlacedEvent.java
+/Users/siyuliu/nology/post-course/microservices-new/order-service/src/main/java/com/siyu/orderservice/dto/InventoryResponse.java

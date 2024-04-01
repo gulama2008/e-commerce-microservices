@@ -1,8 +1,12 @@
 com/siyu/orderservice/dto/OrderLineItemsDto.class
+com/siyu/orderservice/dto/InventoryResponse$InventoryResponseBuilder.class
 com/siyu/orderservice/model/OrderLineItems.class
 com/siyu/orderservice/service/OrderService.class
 com/siyu/orderservice/dto/OrderRequest.class
 com/siyu/orderservice/OrderServiceApplication.class
+com/siyu/orderservice/event/OrderPlacedEvent.class
+com/siyu/orderservice/model/Order.class
+com/siyu/orderservice/config/WebClientConfig.class
 com/siyu/orderservice/controller/OrderController.class
 com/siyu/orderservice/repository/OrderRepository.class
-com/siyu/orderservice/model/Order.class
+com/siyu/orderservice/dto/InventoryResponse.class

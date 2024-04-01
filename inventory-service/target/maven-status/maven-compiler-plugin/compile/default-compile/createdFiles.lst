@@ -1,6 +1,8 @@
 com/siyu/inventoryservice/model/Inventory.class
+com/siyu/inventoryservice/dto/InventoryResponse.class
 com/siyu/inventoryservice/service/InventoryService.class
 com/siyu/inventoryservice/util/DataLoader.class
 com/siyu/inventoryservice/controller/InventoryController.class
+com/siyu/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class
 com/siyu/inventoryservice/repository/InventoryRepository.class
 com/siyu/inventoryservice/InventoryServiceApplication.class
