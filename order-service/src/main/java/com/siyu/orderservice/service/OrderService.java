@@ -4,12 +4,14 @@ import com.netflix.discovery.converters.Auto;
 import com.siyu.orderservice.dto.InventoryResponse;
 import com.siyu.orderservice.dto.OrderLineItemsDto;
 import com.siyu.orderservice.dto.OrderRequest;
+import com.siyu.orderservice.event.OrderPlacedEvent;
 import com.siyu.orderservice.model.Order;
 import com.siyu.orderservice.model.OrderLineItems;
 import com.siyu.orderservice.repository.OrderRepository;
 import io.micrometer.observation.Observation;
 import io.micrometer.observation.ObservationRegistry;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.kafka.core.KafkaTemplate;
 import org.springframework.stereotype.Service;
 import org.springframework.web.reactive.function.client.WebClient;
 
@@ -26,7 +28,10 @@ public class OrderService {
     private WebClient.Builder webClientBuilder;
     @Autowired
     private ObservationRegistry observationRegistry;
-    
+
+    @Autowired
+    private KafkaTemplate<String,OrderPlacedEvent> kafkaTemplate;
+
     public String placeOrder(OrderRequest orderRequest){
         Order order=new Order();
         order.setOrderNumber(UUID.randomUUID().toString());
@@ -53,6 +58,7 @@ public class OrderService {
 
             if(allProductsInStock){
                 orderRepository.save(order);
+                kafkaTemplate.send("notificationTopic",new OrderPlacedEvent(order.getOrderNumber()));
                 return "Order Placed Successfully";
             }else {
                 throw new IllegalArgumentException("Product is not in stock");
